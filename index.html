@@ -17,6 +17,7 @@
   color: orange;
 }
         </style>
+        <link href="style.css" rel="stylesheet">
     <!-- Document information -->
     <meta charset="UTF-8">
     <title>Final Project Harrinton</title>
@@ -28,44 +29,53 @@
     
         <header>
            <nav>
-            <div class="intro">
+            <div class="intro1">
+                <div class="firstbox">
              <img src="images/logo.png" alt="Three Star Media">
-             <ul>
+             <ul class="menu">
                  <li class="current"><a href="#">Home</a></li>
+             </div>
+             <div class="menucon">
                  <li><a href="#">About Us</a></li>
                  <li><a href="#">Services</a></li>
                  <li><a href="#">Team</a></li>
                  <li><a href="#">Contact</a></li>
+                 </div>
             </ul>
+            
+            
                  <form>
                     <input type="text" id="search" name="search">  
                     <button> &#128269; </button>        
                   </form>
-        
-            </div>
+            
 
+            </div>
            </nav>
 
 
            <!--INTRO-->
             <div class="intro"> 
 
-                <div class="container">
+                <div class="container1">
+                       
                     <h1> Welcome To Three Star Media </h1>
                     <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
 
-                    <button> Connect with us &#9658;</button>
-
+                    <button id=> Connect with us &#9658;</button>
+                   
                 </div>
             </div> <!--end of intro-->
+        
 
         </header>
 
         <main>
             <section class="about"> 
-                <div class="container">
+                <div class="container2">
+
                 <img src="images/about-us.jpg" alt="About Us">  
                 <h2> About Us </h2>
                 <p> The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and
@@ -84,41 +94,69 @@
 
             <!--The services section code -->
             <section class="services"> 
-                <div class="container">
+                <div class="grid-container">
+                    
                 <h2> Our Services </h2>
+
+                <div class="grid-service1">
                 <img src="images/digital.jpg" alt="Digital Transformation" >
                 <h3> Digital Transformation </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
+                <div class="grid-digbutton">
                 <button> Digital Plans &#9655;</button>
-
+                </div>
+            </div>
                 
+            <div class="grid-service2">
                 <img src="images/marketing.jpg" alt="Marketing">
                 <h3> Marketing </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
-                <button> Marketing Plans &#9655;</button>
 
+                <div class="grid-marketbutton">
+                <button> Marketing Plans &#9655;</button>
+                </div>
+
+            </div>
+
+            <div class="grid-service3">
                 <img src="images/video.jpg" alt="Video Production">
                 <h3> Video Production </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
+                
+                <div class="grid-videobutton">
                 <button> Video Plans &#9655;</button>
+                </div>
 
+            </div>
+
+            <div class="service4">
+
+                <div class="grid-webimg">
                 <img src="images/web.jpg" alt="Web Development">
+                </div>
+                <div class="grid-service4">
                 <h3> Web Development </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
+                
+                <div class="grid-webbutton"></div>
                 <button> Web Plans &#9655;</button>
+                </div>
+                </div>
+            </div>
 
+            <div class="grid-service5">
                 <img src="images/print.jpg" alt="Print">
                 <h3> Print </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -126,10 +164,9 @@
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
                 <button> Print Plans &#9655;</button>
-
+            </div>
                 
 
-                <div class="grid-container">
 
                 </div>
                  
@@ -138,11 +175,17 @@
             </section> <!--end of Services-->
              
             <section class="vision"> 
-                <div class="container">
-                    <img src="images/vision.jpg" alt="Vision">
-                    <h3> Our Vision </h3>   
+                <div class="vision vision-1">
+                    <div class="block"> 
+                    <h3> Our Vision </h3> 
+                </div>
+
+                <div class="block">
                     <p> All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                </div>
+                <div class="block">
                     <button> Learn More &#9655;</button>
+                </div>
                 </div>
                 </section>
 
@@ -150,10 +193,14 @@
                 <section class="team">
                     <div class="grid-container">
                         <h2> Our Team </h2>
-                     <div class="container"> 
+
+                        <div class="containerteam">
+                        <div class="grid-johndoe">
+                            
+                     <div> 
                         <img src="images/john.jpg" alt="John"> 
-                    </div>   
-                     <div>  
+                    </div>    
+                                              
                          <h3> John Doe </h3>
                          <h4> CEO and Co-Owner </h4>
                          <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical 
@@ -161,10 +208,16 @@
                              Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, 
                              and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
                      </div>
+                     </div>
+                        
+
+                     <div class="grid-bob">
+
+                    <div class="containerteam">  
                      <div> 
                         <img src="images/bob.jpg" alt="Bob"> 
                     </div>
-                     <div> 
+ 
                         <h3> Bob Rite </h3>
                         <h4> CFO and Co-Owner </h4> 
                         <P> Contrary to popular belief, Lorem Ipsum is simply random text. It has roots in a piece of classical 
@@ -172,6 +225,7 @@
                             Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, 
                             and going through the cites of the word in classical literature, discovered the undoubtable source. </P> 
                     </div> 
+                     </div>
                     </div>
                 </section>
 
@@ -191,14 +245,19 @@
                     <div class="container">
                         <h3> Send us a message </h3>
                         <form>
+
                             <label for="fname">Full name:</label><br>
                             <input type="text" id="fname" name="fname" value=""><br>
+
                             <label for="email">Email:</label><br>
                             <input type="text" id="email" name="email" value=""><br>
+
                             <label for="message">Message:</label><br>
                             <input type="text" id="message" name="message" value=""><br><br>
-                            <input type="submit" value="Send">
 
+                            
+                            <input type="submit" value="Send">
+                        
                           </form>
                     </div>
                     </div>
@@ -209,10 +268,14 @@
                     <div class="container">
                         <h3> Hours of Operation </h3>
                         <table style="width:50%" >
+
+                          
                             <tr>
                               <th> Days </th>
                               <th> Hours </th> 
                             </tr>
+                        
+
                             <tr>
                               <td> Monday - Friday </td>
                               <td> 9 AM - 6 PM </td>
