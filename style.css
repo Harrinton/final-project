@@ -121,6 +121,19 @@ margin: 7px;
   grid-template-rows:70px;
 }
 
+
+.grid-service5 {
+  background-color: #ffe6ac;
+  padding: 7px;
+margin: 7px;
+}
+.grid-printbutton {
+  display: grid;
+  color: black;
+  grid-template-columns: 130px;
+  grid-template-rows:70px;
+}
+
 .vision {
   background-image: url(Images/vision.jpg);
   height: 200px;
