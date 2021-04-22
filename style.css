@@ -40,6 +40,7 @@ body{
   height: 700px;
 }
 
+/* Container1 is for the welcome block */
 .container1 {
   justify-content: right;
   background-color: grey;
@@ -55,25 +56,28 @@ body{
  justify-content: center;
 }
 
-
+/* this is for the search bar at the head */
 input {
   width: 1100px;
   padding: 6px;
   margin: 6px;
 }
 
+/* Container2 is for the About us */
 .container2 {
   padding: 6px;
   margin: 6px;
   background-color: #ffe6ac;
 }
 
+/* For the digital platform section */
 .grid-service1 {
   background-color: #ffe6ac;
   padding: 7px;
 margin: 7px;
 }
 
+/* For the digital button */
 .grid-digbutton {
   display: grid;
   color: black;
@@ -86,11 +90,14 @@ color: black;
 }
 
 
+/* For the Marketing section */
 .grid-service2 {
   background-color: #ffe6ac;
   padding: 7px;
 margin: 7px;
 }
+
+/* For the Marketing button */
 .grid-marketbutton {
   display: grid;
   color: black;
@@ -98,11 +105,14 @@ margin: 7px;
   grid-template-rows:70px;
 }
 
+/* For the Video Production section */
 .grid-service3 {
   background-color: #ffe6ac;
   padding: 7px;
 margin: 7px;
 }
+
+/* For the Video Production button */
 .grid-videobutton {
   display: grid;
   color: black;
@@ -110,10 +120,12 @@ margin: 7px;
   grid-template-rows:70px;
 }
 
+/* For the web development section */
 .grid-service4 {
   background-color: #ffe6ac;
 }
 
+/* For the web development button */
 .grid-webbutton {
   display: grid;
   color: black;
@@ -121,12 +133,14 @@ margin: 7px;
   grid-template-rows:70px;
 }
 
-
+/* For the Print section */
 .grid-service5 {
   background-color: #ffe6ac;
   padding: 7px;
 margin: 7px;
 }
+
+/* For the print section */
 .grid-printbutton {
   display: grid;
   color: black;
@@ -134,6 +148,7 @@ margin: 7px;
   grid-template-rows:70px;
 }
 
+/* For the Vision section */
 .vision {
   background-image: url(Images/vision.jpg);
   height: 200px;
@@ -162,10 +177,12 @@ margin: 7px;
   background-color: #ffe6ac;
 }
 
+/* For the table head background color */
 th {
   background-color: #ffe6ac;
 }
 
+/* For the form message part */
 #message {
   height: 100px;
 }
@@ -177,7 +194,7 @@ th {
 
 
 
-
+/* For the Google Open Sans Font */
 body {
   font-family: "Open Sans", serif;
 }
